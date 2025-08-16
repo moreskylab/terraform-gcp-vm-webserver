@@ -15,6 +15,8 @@ This Terraform configuration creates a web server infrastructure in Google Cloud
 - **Cloud Storage Bucket**: Log storage (equivalent to AWS S3)
 - **Service Account**: VM permissions (equivalent to AWS IAM Role)
 
+![gcp_architecture](images/gcp_architecture.png)
+
 ## Prerequisites
 
 1. Google Cloud SDK installed and authenticated: `gcloud auth login`
