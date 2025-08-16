@@ -11,7 +11,7 @@ systemctl start apache2
 systemctl enable apache2
 
 # Create a simple index page
-cat > /var/www/html/index.html << 'EOF'
+cat > /var/www/html/index.html << EOF
 <!DOCTYPE html>
 <html>
 <head>
