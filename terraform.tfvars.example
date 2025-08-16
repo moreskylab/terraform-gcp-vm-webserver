@@ -1,0 +1,7 @@
+project_id           = "your-gcp-project-id"
+region              = "asia-south1"
+zone                = "asia-south1-a"
+machine_type        = "e2-micro"
+ssh_username        = "gcp-user"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+environment         = "dev"
