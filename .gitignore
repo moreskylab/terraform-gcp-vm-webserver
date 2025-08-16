@@ -35,3 +35,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore this gcp service account
+tutorial-467317-7865f1225ecd.json
