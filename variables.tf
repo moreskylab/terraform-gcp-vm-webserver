@@ -38,3 +38,9 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+variable "credentials" {
+  description = "Path to GCP service account credential json file"
+  type        = string
+  default     = "projectID-36456-4646d3545ecd.json"
+}
