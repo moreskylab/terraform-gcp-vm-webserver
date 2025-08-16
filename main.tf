@@ -89,6 +89,9 @@ resource "google_storage_bucket" "logs" {
   name     = "tf-web-server-logs-${random_id.suffix.hex}"
   location = var.region
 
+  # Force destroy
+  force_destroy = true
+
   # Prevent accidental deletion
   lifecycle {
     prevent_destroy = false
